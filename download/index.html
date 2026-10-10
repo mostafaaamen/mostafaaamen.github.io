@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="حمّل أحدث إصدار من نظام إدارة المحاماة وتصفح الإصدارات السابقة.">
+  <title>تحميل نظام إدارة المحاماة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="download.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../">نظام إدارة المحاماة</a>
+    <a class="back-link" href="../">العودة إلى الرئيسية <span aria-hidden="true">←</span></a>
+  </header>
+
+  <main class="page-content">
+    <section class="intro" aria-labelledby="page-title">
+      <span class="eyebrow">مركز التحميل</span>
+      <h1 id="page-title">كل إصدارات البرنامج<br><span>في مكان واحد</span></h1>
+      <p>اختر الإصدار المناسب وحمّله مباشرةً.</p>
+    </section>
+
+    <section class="latest-section" aria-labelledby="latest-heading">
+      <h2 class="section-title" id="latest-heading">أحدث إصدار <span class="latest-badge">الأحدث</span></h2>
+      <div id="latest-version" class="version-card latest-card"></div>
+    </section>
+
+    <section class="older-section" aria-labelledby="older-heading">
+      <h2 class="section-title" id="older-heading">الإصدارات السابقة</h2>
+      <div id="older-versions" class="versions-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">© <span id="current-year"></span> نظام إدارة المحاماة</footer>
+  <script src="download.js"></script>
+</body>
+</html>
